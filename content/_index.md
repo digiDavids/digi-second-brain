@@ -26,13 +26,13 @@ The **Second Brain** starter template empowers you to easily create **personal n
 ```
 
 ```markmap {height="100%"}
--sequenceDiagram
-    participant End User
+sequenceDiagram
+    participant User
     participant Support Engineer
-    End User->>Support Engineer: Report issue
+    User->>Support Engineer: Report issue
     loop While issue not resolved
-        Support Engineer->>End User: Ask questions, collect information
-        End User->>Support Engineer: Answer questions, provide information
+        Support Engineer->>User: Ask questions, collect information
+        User->>Support Engineer: Answer questions, provide information
         Support Engineer->>Support Engineer: Investigate issue
     end
     Support Engineer->>User: Resolve issue
