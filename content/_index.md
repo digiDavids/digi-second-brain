@@ -25,7 +25,6 @@ The **Second Brain** starter template empowers you to easily create **personal n
   - **future-proof** & open source ❤️
 ```
 
-```markmap {height="100%"}
 sequenceDiagram
     participant User
     participant Support Engineer
@@ -34,10 +33,10 @@ sequenceDiagram
         Support Engineer->>User: Ask questions, collect information
         User->>Support Engineer: Answer questions, provide information
         Support Engineer->>Support Engineer: Investigate issue
-    [end]
+    end
     Support Engineer->>User: Resolve issue
     User->>Support Engineer: Thank you
-  ```
+
 
 This diagram shows the basic steps involved in troubleshooting end-user issues. The user reports the issue to the support engineer, who then asks questions and collects information to try to understand the problem. The support engineer then investigates the issue and tries to resolve it. If the issue is not resolved, the process repeats until the issue is fixed.
 
