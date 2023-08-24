@@ -19,8 +19,8 @@ The **Second Brain** starter template empowers you to easily create **personal n
 ```markmap {height="500px"}
 - Second Brain
   - **[admin cache](https://admin.vargaspctech.com/)**
-  - **easy**: [Jobs](https://www.linkedin.com/jobs/)
-  - all your thoughts are **connected**
+  - **LinkedIn**: [Jobs](https://www.linkedin.com/jobs/)
+  - Here is my resume website **[David Vargas - CV](https://resume.vargaspctech.com/)**
   - highly **extensible**
   - **future-proof** & open source ❤️
 ```
