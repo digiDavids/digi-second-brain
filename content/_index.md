@@ -25,31 +25,36 @@ The **Second Brain** starter template empowers you to easily create **personal n
   - **future-proof** & open source ❤️
 ```
 
-```markmap {height="500px"}
+```markmap {height="100%"}
 -sequenceDiagram
-    participant User
+    participant End User
     participant Support Engineer
-    User->>Support Engineer: Report issue
+    End User->>Support Engineer: Report issue
     loop While issue not resolved
-        Support Engineer->>User: Ask questions, collect information
-        User->>Support Engineer: Answer questions, provide information
+        Support Engineer->>End User: Ask questions, collect information
+        End User->>Support Engineer: Answer questions, provide information
         Support Engineer->>Support Engineer: Investigate issue
     end
     Support Engineer->>User: Resolve issue
     User->>Support Engineer: Thank you
   ```
 
-## Public vs Private Second Brain
+This diagram shows the basic steps involved in troubleshooting end-user issues. The user reports the issue to the support engineer, who then asks questions and collects information to try to understand the problem. The support engineer then investigates the issue and tries to resolve it. If the issue is not resolved, the process repeats until the issue is fixed.
 
-Choose between **publishing and sharing your knowledge online or creating a private second brain**.
+Here are some of the questions that the support engineer might ask the user:
 
-To create an **open second brain**, share your knowledge with others [by deploying this template](https://wowchemy.com/hugo-themes/) as a public website.
+    * What is the exact error message?
+    * What were you doing when the error occurred?
+    * Have you tried restarting your computer?
+    * Have you tried updating your software?
 
-To create a **private second brain** either:
+The support engineer might also need to collect information such as the user's operating system, browser, and hardware specifications.
 
-- After deploying your site above, [password protect your online second brain](https://docs.netlify.com/visitor-access/password-protection/) and configure your GitHub repo as **private**
-- [Download this template](https://github.com/wowchemy/hugo-second-brain-theme) and [run the tool locally](https://wowchemy.com/docs/getting-started/install-hugo-extended/)
+Once the support engineer has enough information, they can investigate the issue. This might involve searching for solutions online, contacting the software vendor, or running diagnostic tests.
 
+If the support engineer is able to resolve the issue, they will let the user know. The user can then thank the support engineer and close the ticket.
+
+This is just a basic overview of the troubleshooting process. The specific steps involved will vary depending on the issue. However, this diagram should give you a good understanding of the general flow of the process.
 ## Example notebook
 
 {{< cta cta_text="👉 Check out the Machine Learning notebook" cta_link="machine-learning" >}}
