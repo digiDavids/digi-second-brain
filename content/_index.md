@@ -18,17 +18,7 @@ Welcome to my **Second Brain** where I create **personal notes** and **knowledge
   - **future-proof** & open source ❤️
 ```
 
-sequenceDiagram
-    participant User
-    participant Support Engineer
-    User->>Support Engineer: Report issue
-    loop While issue not resolved
-        Support Engineer->>User: Ask questions, collect information
-        User->>Support Engineer: Answer questions, provide information
-        Support Engineer->>Support Engineer: Investigate issue
-    end
-    Support Engineer->>User: Resolve issue
-    User->>Support Engineer: Thank you
+[![](https://mermaid.ink/img/pako:eNp1kktvwjAMx79K5HOH2tIHzQEJaTvssAtsmjT1ErUGItq4S1I2hvjuS1umVTx8Svz4-W_ZRyioROBg8LNFVeCjFBst6lwxZ6KwpNmbQT3-r9qmIW3Zk9pIhX-xLuthPr8McrbE3iGNaXFIrYga9r6VFQ5epsgyjYaqPZZDSmeXKEfvmnC2MDvm1BorSRmPFVRVWLgOak26Fp33H3JX1kKZL9RjTqNpL0u8zbkh5pr5rPYdbSMsjudFdZ7q7kTLYfhx0V3hr1uhduxALXhQoxMqS7e_Y1eVg91ijTlw9yyF3uWQq5PLE62l1UEVwK1u0YO2KZ3G866Br0VlnLcRCvgRvoGHaTLxk1kSTYM4i6M49eAAPEsnQZqk0yQKZkmc-dnJgx8iB_AnWZgEwSz0o3AahL4f97SPPnimYynd9bwM59Zf3ekXAGPS5Q?type=png)](https://mermaid.live/edit#pako:eNp1kktvwjAMx79K5HOH2tIHzQEJaTvssAtsmjT1ErUGItq4S1I2hvjuS1umVTx8Svz4-W_ZRyioROBg8LNFVeCjFBst6lwxZ6KwpNmbQT3-r9qmIW3Zk9pIhX-xLuthPr8McrbE3iGNaXFIrYga9r6VFQ5epsgyjYaqPZZDSmeXKEfvmnC2MDvm1BorSRmPFVRVWLgOak26Fp33H3JX1kKZL9RjTqNpL0u8zbkh5pr5rPYdbSMsjudFdZ7q7kTLYfhx0V3hr1uhduxALXhQoxMqS7e_Y1eVg91ijTlw9yyF3uWQq5PLE62l1UEVwK1u0YO2KZ3G866Br0VlnLcRCvgRvoGHaTLxk1kSTYM4i6M49eAAPEsnQZqk0yQKZkmc-dnJgx8iB_AnWZgEwSz0o3AahL4f97SPPnimYynd9bwM59Zf3ekXAGPS5Q)
 
 
 This diagram shows the basic steps involved in troubleshooting end-user issues. The user reports the issue to the support engineer, who then asks questions and collects information to try to understand the problem. The support engineer then investigates the issue and tries to resolve it. If the issue is not resolved, the process repeats until the issue is fixed.
