@@ -16,10 +16,10 @@ The **Second Brain** starter template empowers you to easily create **personal n
 - Supports audio, video, images, math, code, [Mermaid](https://mermaid.live/) diagrams, and [much more](https://wowchemy.com/docs/content/writing-markdown-latex/)
 - Edit your notes online in GitHub, or any Git-connected Markdown app such as [Obsidian](https://obsidian.md/) or [Visual Studio Code](https://vscode.dev/)
 
-```markmap {height="200px"}
+```markmap {height="500px"}
 - Second Brain
-  - **powerful** knowledge base
-  - **easy**: just plain text Markdown files
+  - **[admin cache]** (https://admin.vargaspctech.com/)
+  - **easy**: [Jobs](https://www.linkedin.com/jobs/)
   - all your thoughts are **connected**
   - highly **extensible**
   - **future-proof** & open source ❤️
