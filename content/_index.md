@@ -34,7 +34,7 @@ sequenceDiagram
         Support Engineer->>User: Ask questions, collect information
         User->>Support Engineer: Answer questions, provide information
         Support Engineer->>Support Engineer: Investigate issue
-    end
+    [end]
     Support Engineer->>User: Resolve issue
     User->>Support Engineer: Thank you
   ```
