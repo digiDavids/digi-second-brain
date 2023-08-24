@@ -18,12 +18,26 @@ The **Second Brain** starter template empowers you to easily create **personal n
 
 ```markmap {height="500px"}
 - Second Brain
-  - **[admin cache]** (https://admin.vargaspctech.com/)
+  - **[admin cache](https://admin.vargaspctech.com/)**
   - **easy**: [Jobs](https://www.linkedin.com/jobs/)
   - all your thoughts are **connected**
   - highly **extensible**
   - **future-proof** & open source ❤️
 ```
+
+```markmap {height="500px"}
+-sequenceDiagram
+    participant User
+    participant Support Engineer
+    User->>Support Engineer: Report issue
+    loop While issue not resolved
+        Support Engineer->>User: Ask questions, collect information
+        User->>Support Engineer: Answer questions, provide information
+        Support Engineer->>Support Engineer: Investigate issue
+    end
+    Support Engineer->>User: Resolve issue
+    User->>Support Engineer: Thank you
+  ```
 
 ## Public vs Private Second Brain
 
