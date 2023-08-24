@@ -8,14 +8,7 @@ image:
   caption: NASA
 ---
 
-Welcome to the _Second Brain_ template!
-
-The **Second Brain** starter template empowers you to easily create **personal notes** and **knowledge bases** in a future-proof way.
-
-- It is your second brain 🧠, stored in future-proof Markdown files 
-- Supports audio, video, images, math, code, [Mermaid](https://mermaid.live/) diagrams, and [much more](https://wowchemy.com/docs/content/writing-markdown-latex/)
-- Edit your notes online in GitHub, or any Git-connected Markdown app such as [Obsidian](https://obsidian.md/) or [Visual Studio Code](https://vscode.dev/)
-
+Welcome to my **Second Brain** where I create **personal notes** and **knowledge bases** in my own way!!!
 ```markmap {height="500px"}
 - Second Brain
   - **[admin cache](https://admin.vargaspctech.com/)**
